@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.post {
+    width: 500px;
+    height: 700px;
+    background-color: white;
+}
+
+.post-header {
+    display: flex;
+      padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+.post-image {
+    background: url("https://cdn.pixabay.com/photo/2023/04/04/07/57/geese-7898732_960_720.jpg") center;
+    height: 50%;
+    
+}
+
+
+.html-icon, .menu {width: 5%; }
+
+.nickname {width: 90%;}
+
+.menu {
+    justify-self: end;
+}
+
+.post-description {
+    padding: 10px;
+}
+
+.icon-container {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    
+
+}
+
+.bookmark {
+    justify-self: end;
+}
+
+

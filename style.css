@@ -32,8 +32,10 @@ body {
 }
 
 .post-image {
-    background: url("https://cdn.pixabay.com/photo/2023/04/04/07/57/geese-7898732_960_720.jpg") center;
+    background: url("https://cdn.pixabay.com/photo/2023/04/04/07/57/geese-7898732_960_720.jpg") center no-repeat ;
+    background-size: contain;
     height: 50%;
+    flex:1;
     
 }
 
@@ -55,7 +57,7 @@ body {
 
 .icon-container {
     display: flex;
-    width: 100%;
+    width: 95%;
     justify-content: start;
     align-items: center;
     padding: 5% 1% 5% 1%;
@@ -66,9 +68,9 @@ body {
 }
 
 .bookmark {
-    justify-self: end;
     width: 50%;
     text-align: right;
+    flex: 1;
 }
 
 
